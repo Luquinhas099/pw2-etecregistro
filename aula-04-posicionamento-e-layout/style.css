@@ -1,0 +1,50 @@
+.caixa {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: rgb(170, 255, 205);
+}
+
+.static {
+    position: static;
+    background-color: aquamarine;
+}
+
+.relative {
+    position: relative;
+    background-color: rgb(167, 129, 255);
+    top: 50px;
+    left: 200px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: rgb(255, 13, 126);
+    margin: 0;
+    top: 150px;
+    left: 50px;
+}
+
+.frente {
+    z-index: 2;
+    left: 60px;
+    top: 170px;
+    background-color: rgb(255, 251, 0);
+}
+
+.fixed {
+    position: fixed;
+    background-color: rgb(255, 13, 126);
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000
+    ;
+}
+
+.sticky {
+    position: sticky;
+    background-color: rgb(13, 255, 45);
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
