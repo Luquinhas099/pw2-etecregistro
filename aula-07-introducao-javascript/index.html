@@ -3,43 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introdução ao JavaScript</title>
+    <title>Aula 07 - Introdução ao JavaScript</title>
 </head>
 <body>
-    
+    <h1>Introdução ao JavaScript!</h1>
 </body>
+<!-- JavaScript -->
+<script>
+    // Dispara um alerta na tela do usuário
+    window.alert("Bem-vindo ao meu primeiro site com JavaScript!");
+    // Dispara uma janela de confirmação
+    window.confirm("Vamos começar a aprender sobre variáveis?");
+    /*if(window.confirm = "Ok"){
+        window.alert("Vamos lá")
+    }
+    else if(window.confirm = "Cancelar") {
+        window.alert("Poxa, que pena")
+    }*/
 
-<!-- JAVASCRIP INTERNAL -->
- <script> 
-    // Aqui vai seu código JavaScript
+    // Armazenando nome do usuário em uma variável
+    const nome = window.prompt("Qual é o seu nome?")
+    // window.prompt -> abre uma janela para inserção de dados
 
-    // Comentário em linha
+    // Escrevendo o site
+    document.write("Olá " + nome + ", vamos aprender sobre variáveis  <br>")
 
-    /*Comentário de
-    varias
-    linhas*/
+    let idade = window.prompt("Qual é a sua idade?")
 
-    // Variaveis
-    // VAR : No geral evite o seu uso, pode não ser seguro.
+    document.write("Atualmente a sua idade é "+idade+ " anos")
 
-    // LET : Utilizew quando fro necessario alterar o valor da variavel
-
-    // CONST : Utilize quando não for necessario alterar o valor da variavel
-
-    // const nome = 'Juliana'
-    // nome = 'Lucas' // Isso causaria um erro
-
-    let nome = 'Juliana'
-    nome = 'Lucas'
-
-    var cidade = 'Registro'
-    var cidade = 'Cajati'
-
-    // Exibir no console do navegador
-    console.log(nome)
-
-
-
- </script>
-
+</script>
 </html>
