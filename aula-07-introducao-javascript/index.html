@@ -26,11 +26,35 @@
     // window.prompt -> abre uma janela para inserção de dados
 
     // Escrevendo o site
-    document.write("Olá " + nome + ", vamos aprender sobre variáveis  <br>")
+    // Concatenação comum
+    // document.write("Olá " + nome + ", vamos aprender sobre variáveis  <br>")
+
+    // Concatenação Template String
+    document.write(`Olá, ${nome}! Vamos começar!<br>`);
 
     let idade = window.prompt("Qual é a sua idade?")
 
-    document.write("Atualmente a sua idade é "+idade+ " anos")
+    // Concatenação comum
+    // document.write("Atualmente a sua idade é "+idade+ " anos")
+
+    // Concatenação Template String
+    document.write(`Atualmente a sua idade é ${idade} anos! <br>`)
+
+    // Conversão de dados
+    const n1 = Number(window.prompt('Digite um número'));
+    const n2 = Number(window.prompt('Digite outro número'));
+
+    const resultado = n1 + n2;
+
+    document.write(`A soma de ${n1} + ${n2} é igual a: ${resultado} <br>`)
+
+    if(resultado > 100){
+        document.write('Que número grande!');
+    }
+    else{
+        document.write('Que número pequeno!')
+    }
+
 
 </script>
 </html>
