@@ -1,0 +1,41 @@
+// Javascript
+
+// Coletando as inputs
+const inputN1 = document.querySelector('input#inputN1')
+const inputN2 = document.querySelector('input#inputN2')
+const resultado = document.querySelector('div#resultado')
+
+// funções da calculadora
+function somar() {
+    const n1 = Number(inputN1.value);
+    const n2 = Number(inputN2.value);
+    const soma = n1 + n2;
+    resultado.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>`;
+}
+
+function limpar() {
+    inputN1.value = '';
+    inputN2.value = '';
+    resultado.innerHTML = '=';
+}
+
+function subtrair() {
+    const n1 = Number(inputN1.value);
+    const n2 = Number(inputN2.value);
+    const subtracao = n1 - n2;
+    resultado.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${subtracao}</strong>`;
+}
+
+function dividir() {
+    const n1 = Number(inputN1.value);
+    const n2 = Number(inputN2.value);
+    const divisao = n1 / n2;
+    resultado.innerHTML = `A divisão entre ${n1} e ${n2} é igual a <strong>${divisao}</strong>`;
+}
+
+function multiplicar() {
+    const n1 = Number(inputN1.value);
+    const n2 = Number(inputN2.value);
+    const multiplicar = n1 * n2;
+    resultado.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a <strong>${multiplicar}</strong>`;
+}

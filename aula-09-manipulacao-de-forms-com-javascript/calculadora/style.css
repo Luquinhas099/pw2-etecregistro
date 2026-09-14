@@ -1,0 +1,30 @@
+/* css */
+body {
+    font: normal 18pt Arial;
+}
+
+title{
+    color: black;
+    font: normal 18pt Arial;;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div#resultado {
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    height: 60px;
+    font: normal 18pt Arial;
+}
